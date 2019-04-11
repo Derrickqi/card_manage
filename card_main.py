@@ -12,7 +12,7 @@ while True:
     #新增
          if action_str == "1":
             card_tools.new_card()
-    # 显示
+    #显示
          elif action_str == "2":
             card_tools.show_all()
     #查询
