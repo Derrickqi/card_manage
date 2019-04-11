@@ -21,7 +21,6 @@ while True:
     #0 退出系统
     elif action_str == "0":
         print("欢迎再次使用『名片管理系统』")
-        #pass 站位符，保证系统正常，且无任何操作
         break
 
     else:
