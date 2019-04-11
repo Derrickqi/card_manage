@@ -102,7 +102,6 @@ def del_card(find_dict):
 
 def input_card_info (dict_value,tip_message):
     """输入名片信息
-
     :param dict_value:  字典中原有的值
     :param tip_message: 名片信息
     :return:
@@ -112,8 +111,9 @@ def input_card_info (dict_value,tip_message):
     if len(result_str) > 0 :
     # 2.如果输入内容，直接返回结果
         return result_str
+    # 3.若不输入内容，则返回原值
     else:
         return dict_value
 
 
-    #3.若不输入内容
+   
